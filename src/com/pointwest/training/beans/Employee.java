@@ -1,11 +1,11 @@
 public class Employee {
 	
 	private int employeeId;
-	private String name;
+	private String firstname;
 	
 	public Employee(){
 		this.employeeId = 1;
-		this.name = "Juan";
+		this.firstname = "Juan";
 	}
 	
 	public void setEmployeeId(int employeeId){
@@ -16,11 +16,11 @@ public class Employee {
 		return employeeId;
 	}
 	
-	public void setName(String name) {
-		this.name = name;
+	public void setFirstName(String firstname) {
+		this.firstName = firstName;
 	}
 	
-	public String getName(){
-		return name;
+	public String getFirstName(){
+		return firstName;
 	}
 }
